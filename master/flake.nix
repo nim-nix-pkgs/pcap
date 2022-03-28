@@ -11,7 +11,6 @@
   inputs.src-pcap-master.ref   = "refs/heads/master";
   inputs.src-pcap-master.owner = "PMunch";
   inputs.src-pcap-master.repo  = "nim-pcap";
-  inputs.src-pcap-master.dir   = "";
   inputs.src-pcap-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
